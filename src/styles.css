@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Game-font;
+    src: url('src/assets/fonts/ZenDots-Regular.ttf') format('truetype');
+}

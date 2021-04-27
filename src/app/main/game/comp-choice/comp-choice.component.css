@@ -1,0 +1,27 @@
+.choice{
+    width: 6vw;
+    height:6vw;
+    margin: 0 2.5em;
+    display: inline-block;
+    color:white;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.3vw solid white;
+    
+    
+}
+img{
+    width: 100%;
+}
+.red{
+    border: 0.3vw solid rgb(241, 39, 39);
+    box-shadow: 0 0 10px rgb(243, 70, 70) ;
+}
+.green{
+    border: 0.3vw solid rgb(28, 230, 62);
+    box-shadow: 0 0 10px rgb(109, 236, 130) ;
+}
+.grey{
+    border: 0.3vw solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px grey ;
+}

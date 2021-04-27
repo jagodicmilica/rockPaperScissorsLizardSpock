@@ -1,0 +1,25 @@
+<div class="game">
+    <div class="score">
+        <div id="user-name" class="badge">{{userName}}</div>
+        <div id="comp-name" class="badge">Comp</div>
+        {{userScore}} : {{compScore}}
+    </div>
+    <app-choices (played)='userPlayed($event)'></app-choices>
+    <div id="action">
+        <h4>{{winnerMsg}}</h4>
+    </div>
+    <div class="batle">
+        <app-comp-choice [choice]="userChoice" [borderColor] ="userColor" ></app-comp-choice>
+        <div class="vs">
+            <h2>vs</h2>
+        </div>
+        <app-comp-choice [choice]="compChoice" [borderColor] ='compColor' ></app-comp-choice>
+    </div>
+    
+    <div class="buttons">
+        
+        <button class="btn" (click)="resetScore()">Reset score</button>
+        <button class="btn" (click)="endGame()">End game</button>
+    </div>
+    
+</div>
